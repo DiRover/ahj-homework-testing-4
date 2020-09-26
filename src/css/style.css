@@ -1,0 +1,59 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    
+}
+
+.img_container {
+    height: 40px;
+    width: 60px;
+    margin:  0 2px 0 2px;
+    position: relative;
+}
+
+.img {
+    height: 40px;
+    width: 60px;
+    margin: 0;
+    padding: 0;
+    /*background-image: url('../img/visa_straight_64px.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;*/
+}
+
+.shadow {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color: black;
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+}
+
+.form {
+    margin: 30px auto 0 auto;
+    
+}
+
+.msg {
+    font-size: 2em;
+    color: red;
+}
+
+.active {
+    display: block;
+}
+.hidden {
+    display: none;
+}
