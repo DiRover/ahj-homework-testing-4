@@ -9,18 +9,22 @@
     <div class="container">
         <div class="cards">
             <!--<div class="img"><div class="shadow"></div></div>-->
-            <div class="img_container"><img src="img/visa_straight_64px.png" class="img"><div class="shadow"></div></div>
-            <div class="img_container"><img src="img/mastercard_straight.png" class="img"><div class="shadow"></div></div>
-            <div class="img_container"><img src="img/american_express_curved.png" class="img"><div class="shadow"></div></div>
-            <div class="img_container"><img src="img/discover_straight_64px.png" class="img"><div class="shadow"></div></div>
-            <div class="img_container"><img src="img/jcb.png" class="img"><div class="shadow"></div></div>
-            <div class="img_container"><img src="img/mir.png" class="img"><div class="shadow"></div></div>
+            <div class="img_container"><img src="img/visa_straight_64px.png" class="img visa"><div class="shadow"></div></div>
+            <div class="img_container"><img src="img/mastercard_straight.png" class="img master"><div class="shadow"></div></div>
+            <div class="img_container"><img src="img/american_express_curved.png" class="img amer_ex"><div class="shadow"></div></div>
+            <div class="img_container"><img src="img/discover_straight_64px.png" class="img discover"><div class="shadow"></div></div>
+            <div class="img_container"><img src="img/jcb.png" class="img jcb"><div class="shadow"></div></div>
+            <div class="img_container"><img src="img/mir.png" class="img mir"><div class="shadow"></div></div>
+            <div class="img_container"><img src="img/maestro_straight_64px.png" class="img maestro"><div class="shadow"></div></div>
+            <div class="img_container"><img src="img/dinersclub.png" class="img diners"><div class="shadow"></div></div>
         </div>
-        <form class="form">
-            <input name="input_card" class="input">
-            <button class="button">Click to validate</button>
+        <form data-widget="card-form-widget" class="form">
+            <label for="card-input">Enter card number</label>
+            <input name="input_card" data-id="card-input" class="input">
+            <button data-id="card-submit" class="button">Click to validate</button>
         </form>
-        <div class="msg hidden">System is not exsist</div>
+        <div class="msg msg_sys hidden">System is not exsist</div>
+        <div class="msg msg_card hidden">Card is not exsist</div>
     </div>
 </body>
 </html>
