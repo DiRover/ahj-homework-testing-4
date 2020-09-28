@@ -46,7 +46,7 @@ function chekCard(e) {
   // если проблемы с самой картой
   if (elem === 'error') {
     msgCard.classList.remove('hidden');
-    setTimeout(() => msgCard.classList.add('hidden'), 3001);
+    setTimeout(() => msgCard.classList.add('hidden'), 3000);
   }
   // e.preventDefault();
 }
